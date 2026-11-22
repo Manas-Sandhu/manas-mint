@@ -1,0 +1,36 @@
+{
+  "name": "@manassandhu/mint",
+  "version": "0.1.1",
+  "description": "Elegant schema validation for JavaScript and TypeScript",
+  "main": "./src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
+    "check": "node --check src/index.js"
+  },
+  "keywords": [
+    "validation",
+    "schema",
+    "javascript",
+    "typescript",
+    "zod"
+  ],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@vitest/coverage-v8": "^5.1.1",
+    "vitest": "^5.1.1"
+  },
+  "exports": "./src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src"
+  ]
+}
